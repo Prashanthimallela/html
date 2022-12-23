@@ -1,0 +1,20 @@
+body{
+    background-image: url("img/registration.jpeg") ;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+h1{
+    color:red;
+}
+p{
+    color: blueviolet;
+}
+form{
+    color:red;
+    font-size: 20px;
+}
+legend{
+    color: black;
+    font-size: 30px;
+    text-align: left;
+}

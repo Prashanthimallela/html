@@ -1,0 +1,49 @@
+a{
+    text-transform: capitalize;
+    text-align: justify;
+}
+#para1{
+    text-shadow: 2px 2px 5px red;
+    font-family: "sofia";
+    font-family: 'segoe UI','Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: italic;
+    font-variant:small-caps ;
+}
+body{
+    background-color: aquamarine;
+}
+.myclass{
+    color:brown
+}
+tr,th,td{
+    text-align: left;
+}
+/* all p tags inside div*/
+div p{
+    background-color: aqua;
+}
+/*select the p element where div is direct parent of p */
+div >p{
+    text-transform:uppercase;
+}
+div+p{
+    color:red;
+}
+p~ div {
+    color:green;
+}
+#last::after{
+    content:"-end of the document";
+}
+a:active{
+    background-color: yellowgreen;
+}
+a:hover{
+    background-color: greenyellow;
+}
+input:focus{
+    background-color: palevioletred;
+}
+p:nth-of-type(2n){
+    background-color: red;
+}

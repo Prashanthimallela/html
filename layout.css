@@ -1,0 +1,28 @@
+body{
+    border-style: solid;
+    border-color:black;
+    margin:0 auto;
+    width: 500px;
+}
+.a1{
+    height: 30px;
+    width: 100px;
+    background-color: pink;
+    border-style: solid;
+    margin-left: 10px;
+}
+.a2{
+    height: 30px;
+    width: 300px;
+    background-color:lightblue;
+    border-style: solid;
+    margin-left: 160px;
+}
+.a3{
+    height: 30px;
+    width: 460px;
+    background-color: rgb(240, 185, 84);
+    border-style: solid;
+    margin-left: 10px;
+
+}

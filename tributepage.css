@@ -1,0 +1,18 @@
+body{
+    background-color:rgb(217, 228, 233);
+}
+h1{
+    border-style:solid;
+    background-color:rgb(202, 164, 169);
+}
+p{
+    color:navy;
+}
+main{
+     border-style: solid;
+     background-color: whitesmoke;
+     margin:100px 100px 100px 100px ;
+}
+#p1{
+    color:rgb(0, 0, 0);
+}

@@ -1,0 +1,179 @@
+<!DOCTYPE HTML>
+<html>
+     <head>
+	 <title>My Page </title>
+	
+	 <!--Internal or Embedded CSS-->
+	 <style>
+		a{
+			text-decoration: name ;
+		 }
+		 </style>
+		<!--External css-->
+		<link rel ="stylesheet" href="style.css"/>
+		
+		</head>
+	    <!--INLINE CSS-->
+     <body>
+	 <h1 style="background-color:aquamarine ">This is my frist html page </h1>
+	 <p id ="para1"><b>a new paragraph</p></b>
+	 <p>The <abbr title="International Cricket councial">ICC</abbr>
+	 was founded in 1948</p>
+	 <p> the rose has<span>red</span>colour.</P>
+	 <div class="div">
+	 <p>This is div tag</p>
+	 </div>
+	 <u>this is underline tag </u>
+	 <P id="para1"style="font-family:sofia,sars-serif;"></P><b></b>
+	 <p>this is <sub>subscript </sub>tag<p>
+	 <p>This text contains <sup>superscript</sup> text.</p>
+	 <p><strong>Prashanthi!!!!!!</strong></p>
+	 <em>emphizied</em>
+	 <hr>long line divison</hr> 
+	 <br>break</br>
+	 <Pre>rose is red flower there is no other flower like rose 
+	 </pre>
+	 <h1 style="background-color: aquamarine;"></h1>
+     <h2>This is heading 2</h2>
+	 <h3>new h3 header inside div</h3>
+     <h4>another header inside</h4>
+     <h5>This is heading 5</h5>
+	 <p>frist paragraph inside div </p>
+	 <p>second paragraph inside div </p>
+	 <p>third paragraph inside div </p>
+	 <span>new span</span>
+	 <p>right after div</p>
+	 <del>red</del>
+	 <ins>red</ins>!</p>
+	 <del>blue</del> <ins>red</ins>
+	 <ins>insert</ins>
+	 <p><dfn>HTML</dfn> defination</p>
+	 <dfn>hyper text markup language</dfn>
+	 <a href="https://www.google.com">Visit google.com!</a>
+	 <a href="https://www.snapchat.com">Visit snapchat.com!</a>
+     <a href="C:\Users\prashanthim\Desktop\html\newhtmlfloder.txt">go to my folder</a>
+	 <a href="#last">go to last paragraph</a>
+
+	 <iframe src="homepage.html" height="300px" width="300px" name="iframe_1">
+	 </iframe>
+	 <p>
+		<a href ="https://www.thehindu.com/news/" target="iframe_1">KKK</a>
+	 </p>
+
+    <table border ="1">
+	<caption>life expectany by current age</caption>	
+	<tr>	
+		<th colspan ="2">65</th>
+		<th colspan="2">40</th>
+		<th colspan="2">20</th>
+	</tr>
+	<tr>
+		<th>men</th>
+		<th>women</th>
+		<th>men</th>
+		<th>women</th>
+		<th>men</th>
+		<th>women</th>
+	</tr>		
+    <tr>
+		<td>82</td>
+		<td>85</td>
+		<td>78</td>
+		<td>82</td>
+		<td>77</td>
+		<td>81</td>
+	</tr>
+	<table border="1">
+	<caption>favorite and least favorite things</caption>
+	<tr>
+		<th></th>
+		<th></th>
+		<th>bob</th>
+		<th>alice</th>
+	</tr>	
+<tr>
+	
+	<th rowspan="2">favorite</th>
+	<th>color</th>
+    <td>blue</th>
+    <td>purple</th>
+</tr>
+<tr>
+   <th>flavor</th>
+   <td>banana</th>
+   <td>chocolate</th>
+</tr>
+<tr>
+	<th rowspan="2">least favorite</th>
+	<th>color</th>
+	<td>yellow</th>
+	<td>pink</th>
+</tr>
+<tr>
+	<th>flavor</th>
+	<td>mint</th>
+	<td>walnut</th>
+</tr>
+	</table>
+	
+<ul type="bullet">
+	<li>fruit</li>
+<ul type="circle">
+	<li>banana</li>
+	<li>apple</li>
+	<ul type="square">
+		<li>green</li>
+		<li>red</li>
+	</ul>
+  <li>pears</li>
+</ul>
+<li>vegtables</li>
+<li>meat</li>
+</ul>
+<img src="img/imgjpge.jpg" alt="not found" width="200" height="200">
+	</table>
+	<hr>
+	/*<from action="home.html">*/
+	<form name="myForm" onsubmit ="return validateForm()" action ="home.html" method="post">
+    <link rel="stylesheet" href="main.js"/>
+		<fieldset>
+			<legend>personal information</legend>
+			<label for="username" id="lbli">username:</label>
+			<input type="text" id="usernsme" name="user1"placeholder="enter username"/><br><br>
+			<label for ="pwd" id="pwd1">password:</label>
+			<input type ="password" id="pwd"name="password" placeholder="enter password"/><br><br>
+			<label for="email"id="email">Email:</label>
+			<input type="email" id="email" name="email" placeholder="enter email"/><br><br>
+			<label for="dob" id="dob1">Date of Birth </label>
+			<input type="date" id="dob" name ="dob" max="2004-01-02"/><br><br>
+			<label for="gender" id="g1">gender </label>
+			<input type="radio" id="gender1" value ="male" name="gender"/>male
+			<input type="radio" id="gender2" value ="female" name="gender"/>female<br><br>
+			<label for ="addr1" id="addr">Address:</label>
+			<textarea id ="addr1" name="addr1" rows="4" cols="30"></textarea>
+			<select name="city" id="city">
+				<caption value="vizag">Vizag</caption>
+				<caption value="pune"></caption>
+				<caption value="mumbai" selected>Mumbai</caption>
+				<caption value ="bangalore">Bangalore</caption>
+			</select><br></br>
+			<input type="checkbox" id="read" name="read" value ="reading" /><br><br>
+			<label for ="read">reading:</label>
+			<input type="checkbox" id="music" name="music" value ="music" /><br><br>
+			<label for ="music">music:</label>
+			<input type="checkbox" id="sports" name="sports" value ="sports" /><br><br>
+			<label for ="sports" >Sports:</label><br><br>
+
+			<input type="reset" value="clear"/>
+			<input type="submit" value="register"/>
+
+		</fieldset>
+		</form>
+	</from>
+
+	 </body>
+
+</html>	 
+<!--Inline tag : tags which will not put a new line ex:anchor tag
+	Block tag"If the tag puts a new line it is call block tags -->	 
+	

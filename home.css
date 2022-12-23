@@ -1,0 +1,43 @@
+h1{
+    background-color: #68f
+}
+#para1{
+    background-image: url(img/imgjpge.jpg);
+    background-repeat: space;
+    background-repeat: round;
+    background-repeat: no-repeat;
+    background-repeat: fixed;
+    background-attachment: scroll;
+}
+#last{
+    border-style: solid inset dashed;
+    border-style:dashed;
+    border-width: 5px;
+    border-color: red;
+    margin-left:40px;
+    padding-left: 20px;
+    width:500px;
+    box-sizing:border-box;
+}
+#d1{
+    position: relative;
+    border-style: solid;
+    height:200px;
+    width:200px ;
+    overflow: hidden;
+    }
+
+#p1{
+    border-style:solid;
+    position: absolute;
+    bottom:2px;
+    left:2px;
+    border-color: red;
+    height:70px;
+}
+li{
+    display:inline;
+}
+a{
+    display: block;
+}
