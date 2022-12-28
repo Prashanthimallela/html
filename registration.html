@@ -6,42 +6,59 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="registration.css"/>
+    <script src="registration.js"></script>
+    <lint rel="styleshhet" href="complt.js"/>
 </head>
-<body align="center" 
- id="r1">
+<body align="center" >
+ <id="r1">
  <div id="class">
     <h1>Registration Form</h1>
-    <fieldset>
-    <form name="registration" onsubmit ="return validation()" action="regcmp.html" >
+   
+    <form name="registration" onsubmit ="return validation();" action="regcmp.html">
+        
         <i class="output group"></i>
+        <div id="form">
         <div class ="inner-div">
-        <legend>Personal Imformation:</legend>
-        <label>*username:</label>
+        <label>userid:</label><br>
+        <input type="" class="use" id="userid" name="userid" placeholder="Enter user id " readonly /><br></br></div>
+        <label>username:</label><br>
         <input type="text" id="name"name="user1"placeholder="Enter user name"/>
-        <span id="name-error"></span><br></br></div>
+        <span id="name-error"></span><br></br>
         <div class="inner-div">
-        <label>*password:</label>
-        <input type="text" id="pwd" name="pwd1"placeholder="Enter user password"/>
+        <label>Password</label><br>
+        <input type="password" id="psw" name="psw" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}"
+        title="Must contain at least one number and one uppercase and lowercase letter, 
+               and at least 8 or more characters" required placeholder="Enter password">
         <span id="password-error"></span><br></br></div>
-        <label>repeat password:</label>
-        <input type="text" id="repwd" name="repwd1"placeholder="RepeatPassword"/><br></br>
-        <label>Date of Birth</label>
-        <input type="text" id="doj" name="doj1"placeholder="Date Of Birth"/><br></br>
+        <label>Repeat password:</label><br>
+        <input type="password" id="rpsw" name="psw" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}"
+        title="Must contain at least one number and one uppercase and lowercase letter, 
+               and at least 8 or more characters" required placeholder="Enter Repeat Password">
+        <span id="Repeat password-error"></span><br></br></div>
+        <label>Date of Birth</label><br>
+        <input type="date" id="doj" name="doj1"placeholder="Date Of Birth"/><br></br>
         <div class="inner-div">
-        <label>Address</label>
+        <label>Address</label><br>
         <textarea id="add" name="add1" row="6" col="6" ></textarea>
         <span id="address-error"></span><br><br></div>
         <div class="inner-div">
-        <label>Educational Qualification</label>
-        <input type="Educational Qualification" id="edqfs1" name="edqfs1" placeholder="Educational Qualifications"/>
+        <label>Educational Qualification</label><br>
+        <select id="item">
+        <option>SSC</option>
+        <option>Intermidate</option>
+        <option>BE/BTech</option>
+        <option>MTech</option>
+        </select>
         <span id="edu-Qualif"></span><br></br>
-        <label>Hobbies</label>
+        <label>Hobbies</label><br>
         <input text="Hobbies" id="hbs" name="hbs1" placeholder="Hobbies"/><br></br>
-        <label>List of Certifications</label>
+        <label>List of Certifications</label><br>
         <input type="list of Certifications" id="cert" name="cert1" placeholder="List of Certifications"/><br></br>
-        <input type="SUBMIT" style="background-color: blue;"/>
+        <input type="SUBMIT" style="background-color:green;"/>
+        <input type="RESET" style="background-color: red;"/>
+    
     </form>
-    </fieldset>
+    </div>
 </body>
 
 
